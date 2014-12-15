@@ -1,0 +1,11 @@
+{
+    "uuid": "701c4543-09ed-452d-b773-8dd6d8e6ef22",
+    "name": "MergeSortAddon",
+    "type": "SORT",
+    "description": "Merge Sort Implementation",
+    "execution_seq": ["execute"],
+    "stop_seq": ["info"],
+    "version": "0.1",
+    "author": "Ninad Mhatre",
+    "help_url": "http://en.wikipedia.org/wiki/Merge_sort"
+}

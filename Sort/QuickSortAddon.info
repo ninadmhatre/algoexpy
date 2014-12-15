@@ -1,0 +1,11 @@
+{
+    "uuid": "441a6faf-d61c-403e-927c-8d64f2fb8f65",
+    "name": "QuickSortAddon",
+    "type": "SORT",
+    "description": "Quick Sort Implementation",
+    "execution_seq": ["execute"],
+    "stop_seq": ["info"],
+    "version": "0.1",
+    "author": "Ninad Mhatre",
+    "help_url": "http://en.wikipedia.org/wiki/Quick_Sort"
+}

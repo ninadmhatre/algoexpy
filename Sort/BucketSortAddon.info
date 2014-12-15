@@ -1,0 +1,11 @@
+{
+    "uuid": "1a4b4872-8ee8-4225-b7d1-b6e00bb056bc",
+    "name": "BucketSortAddon",
+    "type": "SORT",
+    "description": "Bucket Sort Implementation",
+    "execution_seq": ["start", "execute"],
+    "stop_seq": ["stop"],
+    "version": "0.1",
+    "author": "Ninad Mhatre",
+    "help_url": "http://en.wikipedia.org/wiki/Bucket_sort"
+}

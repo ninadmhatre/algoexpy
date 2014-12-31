@@ -1,0 +1,11 @@
+{
+    "uuid": "c9217ebc-35c7-4b3c-af04-477db7787b33",
+    "name": "InsertionSortAddon",
+    "type": "SORT",
+    "description": "Insertion Sort Implementation",
+    "execution_seq": ["start", "execute"],
+    "stop_seq": ["stop"],
+    "version": "0.1",
+    "author": "Ninad",
+    "help_url": "http://en.wikipedia.org/wiki/Insertion_Sort"
+}

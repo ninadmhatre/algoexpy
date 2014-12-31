@@ -1,0 +1,11 @@
+{
+    "uuid": "60f7f7fd-46cf-4e63-928c-168d124949e4",
+    "name": "BubbleSortAddon",
+    "type": "SORT",
+    "description": "Bubble Sort Implementation",
+    "execution_seq": ["execute"],
+    "stop_seq": ["info"],
+    "version": "0.1",
+    "author": "Ninad Mhatre",
+    "help_url": "http://en.wikipedia.org/wiki/Bubble_sort"
+}

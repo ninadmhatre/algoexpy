@@ -1,0 +1,11 @@
+{
+    "uuid": "8dba5191-f4e6-43e2-bd6d-60a81f871c38",
+    "name": "SelectionSortAddon",
+    "type": "SORT",
+    "description": "Selection Sort Implementation",
+    "execution_seq": ["execute"],
+    "stop_seq": ["info"],
+    "version": "0.1",
+    "author": "Ninad Mhatre",
+    "help_url": "http://en.wikipedia.org/wiki/Selection_Sort"
+}

@@ -38,18 +38,20 @@ class Common(object):
     def __init__(self):
         pass
 
-    def show_source(self):
-        try:
-            source = inspect.getsource(self.logic).split('\n')
-        except IOError:
-            print("Failed to read the source of '{0}' algorithm".format(self.__addon__))
-        except ImportError:
-            print("Failed to read the source of '{0}' algorithm".format(self.__addon__))
-        else:
-            print("\n---------------- Sorting Logic For : [{0}] -----------------\n".format(self.__addon__()))
-            for line in source:
-                print(line)
-            print("\n")
+    def show_source(self, functions=list()):
+        all_func = ['logic'] + functions
+
+        print("\n---------------- Sorting Logic For : [{0}] -----------------\n".format(self.__addon__()))
+        for func in all_func:
+            try:
+                source = inspect.getsource(getattr(self, func)).split('\n')
+            except IOError:
+                print("Failed to read the source of '{0}' algorithm".format(self.__addon__))
+            except ImportError:
+                print("Failed to read the source of '{0}' algorithm".format(self.__addon__))
+            else:
+                for line in source:
+                    print(line)
 
     def log(self, msg, verbose):
         if verbose:

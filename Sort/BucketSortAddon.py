@@ -1,10 +1,11 @@
 __author__ = 'Ninad Mhatre'
 
 from addonpy.IAddonInfo import IAddonInfo
-import Helper
 from addonpy.addonpy import AddonLoader
+from pylrn.Helper import Common
+import pylrn.Helper as Helper
+
 import math
-from Helper import Common
 
 
 class BucketSortAddon(IAddonInfo, Common):
@@ -18,6 +19,7 @@ class BucketSortAddon(IAddonInfo, Common):
         """
         self.log("{0} >> Before Sorting   : {1}".format(self.__addon__(), data), output)
         self.log(Helper.insert_separator(), very_verbose)
+        self.loop_count = 0
 
         self.logic(data, output, reverse, very_verbose)
 

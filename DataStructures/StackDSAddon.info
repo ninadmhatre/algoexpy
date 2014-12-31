@@ -1,0 +1,12 @@
+
+{
+    "uuid": "69927848-eda5-490e-bc3e-8b526286cd6f",
+    "name": "StackDSAddon",
+    "type": "DATA_STRUCTURE",
+    "description": "Stack Implementation",
+    "execution_seq": ["start", "execute"],
+    "stop_seq": ["stop"],
+    "version": "0.1",
+    "author": "<Please Specify Author>",
+    "help_url": "http://www.google.com/helppage/StackDSAddon"
+}

@@ -1,0 +1,12 @@
+
+{
+    "uuid": "4f03a201-856d-42be-9fe4-07585c19a31f",
+    "name": "LinkedListDSAddon",
+    "type": "DATA_STRUCTURE",
+    "description": "Linked List Implementation",
+    "execution_seq": ["start", "execute"],
+    "stop_seq": ["stop"],
+    "version": "0.1",
+    "author": "<Please Specify Author>",
+    "help_url": "http://www.google.com/helppage/LinkedListDSAddon"
+}

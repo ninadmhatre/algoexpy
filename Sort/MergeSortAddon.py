@@ -1,8 +1,8 @@
 __author__ = 'Ninad Mhatre'
 
 from addonpy.IAddonInfo import IAddonInfo
-import Helper
-from Helper import Common
+from pylrn.Helper import Common
+import pylrn.Helper as Helper
 
 
 class MergeSortAddon(IAddonInfo, Common):
@@ -17,6 +17,7 @@ class MergeSortAddon(IAddonInfo, Common):
         """
         self.log("{0} >> Before Sorting   : {1}".format(self.__addon__(), data), output)
         self.log(Helper.insert_separator(), very_verbose)
+        self.pass_cnt, self.loop_count = 0, 0
 
         self.logic(data, output, reverse, very_verbose)
 

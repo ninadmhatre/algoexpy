@@ -1,0 +1,12 @@
+
+{
+    "uuid": "5417b374-8723-4db9-910f-99bac796d649",
+    "name": "QueueDSAddon",
+    "type": "DATA_STRUCTURE",
+    "description": "Queue Implementation",
+    "execution_seq": ["start", "execute"],
+    "stop_seq": ["stop"],
+    "version": "0.1",
+    "author": "<Please Specify Author>",
+    "help_url": "http://www.google.com/helppage/QueueDSAddon"
+}

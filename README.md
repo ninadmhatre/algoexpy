@@ -3,9 +3,7 @@ pylrn
 
 Common algorithms & data structure implementation in Python.
 
-I think, good way to learn language if you start implementing basic sorting algorithms, data structures in 
-language you want to learn. I was brushing up my knowledge on these algorithms and felt what if i never have to leave the 
-terminal (idle) to learn something and then i wrote this module.
+I think good way to learn any language is by implementing basic sorting algorithms and data structures in language you want to learn. I was brushing up my knowledge on these algorithms and had to refer few things on internet that when i felt what if i never have to leave the terminal (idle) to learn something? Currently there are very few algorithms in module but i will add more soon. Anyone interested please check the "Contribute" section below
 
 I thank, 
 - Author of http://danishmujeeb.com/blog/2014/01/basic-sorting-algorithms-implemented-in-python blog post
